@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    font-size: 0.6rem;  
+}
+
+
+body{
+    background: linear-gradient(90deg, #2d3381 20%, #040c29 100%);
+    padding-left: 35rem;
+}
+
+.heading{
+    text-align:center;
+    margin: 0 4rem;
+    font-size: 4rem;
+    padding-top: 6rem;
+    border-bottom: .1rem solid wheat;
+}
+
+.heading span{
+    color: rgb(65, 167, 101);
+    font-weight: 100;
+}
+
+
+header{
+    position:fixed;
+    left: 0; 
+    height: 100%;
+    width: 35rem;
+    background: linear-gradient(90deg, #080128 0%, #5576e3 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user img{
+    height: 16rem;
+    width: 13rem;
+    border-radius: 50%;
+    border: .5rem solid wheat;
+}
+
+header .user .name{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 100;
+}
+
+header .user .job{
+    font-size:2rem;
+    color: #fff;
+    font-weight: 100;
+}
+
+header .nav{
+    width: 100%;
+}
+header .nav ul{
+    list-style:none;
+    padding: 1rem ;
+    
+}
+
+header .nav ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: #253671;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 1rem;
+    text-decoration: none;  
+}
+header .nav ul li a:hover{
+    background-color:rgb(59, 148, 96);
+}
+
+.Details .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    padding: 3rem 0;
+}
+
+.Details .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Details .Row .det h3{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Details .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
+table,th,td{
+    border: 1.5px solid rgb(65, 167, 101);
+   
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+th{
+    color: rgb(192, 203, 196);
+}
+
+table{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 2rem;
+    padding: 1rem;
+    color: #fff;
+}
+
+#lis{
+    padding-top: 3rem;
+
+}
+
+#lis li{
+    margin: 0 10rem;
+    color: white;
+    font-size: medium;
+    padding: 0.5rem 1rem;
+}
+.Project .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Project .Row .det{
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Project .Row .det h3{
+    font-size: 2rem;
+    color: rgb(153, 237, 149);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Project .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
